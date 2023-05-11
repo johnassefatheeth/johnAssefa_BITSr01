@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+a{
+    
+    text-decoration: none;
+}
+header{
+    
+    padding: 30px;
+}
+#logo{
+    display: inline;
+    font-family: 'great vibes';
+    font-size: 30px;
+    font-weight: 900;
+}
+#hamburger_menu{
+    float: right;
+}
+nav{
+}
