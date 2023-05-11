@@ -10,7 +10,7 @@ a{
 
 header{
     padding: 30px;
-    position: fixed;
+    position: relative;
     z-index: 1;
     width:95% ;
     background-color: blueviolet;
@@ -31,7 +31,8 @@ nav{
     width: 100%;
     position: absolute;
     background-color: rgb(45, 130, 204);
-    z-index: -1;
+    scale: 0;
+    top: 96px;
 }
 nav ul{
     display: flex;
@@ -54,8 +55,9 @@ nav ul li{
 }
 section{
     width: 100%;
-    height: 100%;
-    position: absolute;
+    height: 100vh;
+    position:relative;
+    z-index: 1;
     background-color: blanchedalmond;
 }
 section img{
@@ -82,4 +84,23 @@ font-size: medium;
 }
 #prof{
     font-size: x-large;
+}
+
+#bio{
+    position: relative;
+    height: 100vh;
+    background-color: brown;
+}
+#bio p{
+    width: 750px;
+    float: right;
+    margin-right: 100px;
+}
+
+#bio img{
+    float: left;
+    width: 350px;
+    border-radius: 100%;
+    margin-top: 200px;
+    margin-left: 100px;
 }
