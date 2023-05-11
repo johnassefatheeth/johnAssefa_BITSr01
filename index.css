@@ -10,6 +10,10 @@ a{
 
 header{
     padding: 30px;
+    position: fixed;
+    z-index: 1;
+    width:95% ;
+    background-color: blueviolet;
 }
 
 #logo{
@@ -48,8 +52,34 @@ nav ul li{
     justify-content: center;
     display: flex !important;
 }
-/*section{
+section{
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    position: absolute;
     background-color: blanchedalmond;
-}*/
+}
+section img{
+    width: 500px;
+    float: right;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-right: 200px;
+    display: inline;
+}
+
+ p{
+    margin-top: 300px;
+    margin-left: 200px;
+    display: inline-block;
+    float: left;
+    font-family: 'Pacifico' ;
+}
+#hi{
+font-size: medium;
+}
+#im{
+    font-size: xx-large;
+}
+#prof{
+    font-size: x-large;
+}
