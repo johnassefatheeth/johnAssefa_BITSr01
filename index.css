@@ -10,7 +10,7 @@ a{
 
 header{
     padding: 30px;
-    position: relative;
+    position: fixed;
     z-index: 1;
     width:95% ;
     background-color: blueviolet;
@@ -57,7 +57,6 @@ section{
     width: 100%;
     height: 100vh;
     position:relative;
-    z-index: 1;
     background-color: blanchedalmond;
 }
 section img{
