@@ -126,3 +126,11 @@ font-size: medium;
 .icon{
     width: 100px;
 }
+#skilcert{
+    padding: 30px;
+}
+.skival{
+    width: 70%;
+    height: 30px;
+    accent-color: greenyellow;
+}
