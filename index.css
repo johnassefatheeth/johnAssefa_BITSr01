@@ -185,5 +185,23 @@ input ,textarea{
     top: 10px;
     padding: 40px;
     color: rgb(132, 0, 255);
-    cursor: text;
+}
+
+.ic{
+    position: relative;
+    width: 50px;
+    margin: 20px;
+}
+#portfolio{
+    position: relative;
+}
+#portfolio div{
+    display: inline-block;
+    margin: 30px;
+    width: 300px;
+    height: 250px;
+    color:white;
+    background: linear-gradient(rgb(0, 19, 128),rgb(0, 0, 103));
+    border-radius: 30px;
+    padding: 30px;
 }
