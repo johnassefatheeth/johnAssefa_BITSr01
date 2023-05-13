@@ -180,7 +180,7 @@ input ,textarea{
 }
 .lbl{
     height: 100%;
-    position: absolute;
+    position: relative;
     left: 10px;
     top: 10px;
     padding: 40px;
