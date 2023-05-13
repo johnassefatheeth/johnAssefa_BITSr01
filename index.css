@@ -159,3 +159,31 @@ font-size: medium;
     margin: 20px;
     padding: 10px 0px 10px 20px;
 }
+
+form{
+    width: 80%;
+    margin: 30px;
+    border: 2px solid rgb(167, 16, 194);
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(167, 16, 194);
+    background: transparent;
+    position: relative;
+}
+input ,textarea{
+    width: 90%;
+    padding: 10px;
+    outline: 0;
+    border: 2px solid rgb(167, 16, 194);
+    font-size: 20;
+    background: transparent;
+    margin: 20px;
+}
+.lbl{
+    height: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 40px;
+    color: rgb(132, 0, 255);
+    cursor: text;
+}
