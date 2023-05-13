@@ -77,12 +77,16 @@ section{
     background:linear-gradient(#1f242d,#2b313d);
 }
 section img{
-    width: 400px;
+    width: 350px;
     float: right;
     margin-top: 100px;
     margin-right: 200px;
     display: inline;
     transform: translateY(100px);
+    background-color: rgb(13, 255, 65);
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 0 0 10px rgb(13, 255, 65),0 0 20px rgba(13, 255, 65, 0.632),0 0 30px rgba(13, 255, 65, 0.297);
 }
 
  #naming{
@@ -129,7 +133,7 @@ section img{
     position: relative;
     width: 270px;
     height: 70px;
-    background-color: rgb(134, 186, 20);
+    background-color: rgb(13, 255, 65);
     border-radius: 30px;
     font-size: 22px;
     font-family: algerian;
@@ -137,8 +141,7 @@ section img{
     color: #2b313d;
     margin-top: 40px;
     border:none;
-    box-shadow: 0 0 15px rgb(189, 255, 46),0 0 20px rgb(150, 216, 8),0 0 25px rgb(121, 171, 11);
-}
+    box-shadow: 0 0 20px rgb(13, 255, 65),0 0 40px rgba(13, 255, 65, 0.632),0 0 80px rgba(13, 255, 65, 0.368);}
 
 #bio img{
     float: left;
@@ -149,35 +152,70 @@ section img{
 }
 
 #services{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: auto;
     width: 100%;
-    background-color: aquamarine;
+    background:linear-gradient(0deg,rgb(43, 43, 49),#1f242d); 
     text-align: justify;
 }
 
+#contain h2{
+    font-size: 35px;
+    color: aliceblue;
+    text-shadow: 0 0 10px;
+    margin-bottom: 40px;
+}
+
 .service{
+    color: aliceblue;
     display: inline-block;
-    margin: 10px;
+    margin: 30px;
     width: 250px;
     height: 350px;
-    background-color: rgb(110, 75, 24);
-    border-radius: 20%;
+    background:linear-gradient(180deg,rgb(63, 63, 74),#222a37); 
+    border-radius: 10%;
     padding: 20px;
     font-family: 'Major Mono Display';
-    font-weight: 700;
+    font-weight: 900;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+
 }
 .icon{
     width: 100px;
+    fill: white;
 }
 #skills{
-    padding: 30px;
+    padding: 10px;
+    background:linear-gradient(90deg,rgb(48, 48, 55),#1c2430);
+}
+
+.prog{
+    width: 40%;
+    display: inline-block;
+}
+.tofr{
+    width: 40%;
+    display: inline-block;
+}
+#skills h2{
+    color: rgb(47, 97, 233);
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    margin: 40px;
+}
+#skills h3{
+    color: rgb(188, 18, 226);
+    font-size: 30px;
+}
+#skills label{
+    color:rgb(0, 255, 64);
+    font-size: 25px;
 }
 .skival{
     width: 70%;
     height: 30px;
-    accent-color:red;
-    box-shadow: 0 2px 10px rgb(255, 2, 2);
+    accent-color:rgb(0, 255, 64);;
+    box-shadow: 0 2px 10px rgb(0, 255, 64);;
 }
 .certification{
     align-items: center;
@@ -190,9 +228,55 @@ section img{
     display: inline-block;
     width: 250px;
     padding: 15px;
-    background-color: blueviolet;
     height: 250px;
     border-radius: 30px;
+}
+.AASTU{
+    background: url(aastu.png);
+    background-size: cover;
+}
+
+.hult{
+    background: url(hu.png);
+    background-size: cover;
+}
+
+.slHTML{
+    
+    background: url(html.jpg);
+    background-size: cover;
+}
+.slCSS{
+    background: url(css.jpg);
+    background-size: cover;
+}
+.sljs{
+    background: url(js.jpg);
+    background-size: cover;
+}
+.slja{
+    background: url(java.jpg);
+    background-size: cover;
+}
+.slcm{
+    background: url(cm.jpg);
+    background-size: cover;
+}
+.slfwd{
+    background: url(fwd.jpg);
+    background-size: cover;
+}
+.slpyth{
+    background: url(pyth.jpg);
+    background-size: cover;
+}
+.sljq{
+    background: url(jq.jpg);
+    background-size: cover;
+}
+.slCp{
+    background: url(rwd.jpg);
+    background-size: cover;
 }
 .transcript{
     display: inline-block;
@@ -212,6 +296,9 @@ form{
     box-shadow: 0 0 10px rgb(167, 16, 194);
     background: transparent;
     position: relative;
+}
+#frmcntn{
+    margin-top: 30px;
 }
 input ,textarea{
     width: 90%;
@@ -238,6 +325,8 @@ input ,textarea{
 }
 #portfolio{
     position: relative;
+    background: linear-gradient(#1c2430,#1f242d,#2b313d,#222a37);
+
 }
 #portfolio div{
     display: inline-block;
@@ -252,4 +341,5 @@ input ,textarea{
 
 footer{
     margin-top: 50px;
+    background: linear-gradient(#1c2430,#1f242d,#2b313d,#222a37);
 }
