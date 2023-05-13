@@ -4,12 +4,21 @@ var menu= document.getElementsByClassName("menu")[0];
 
 menu.style.fill='blue';
 
+
+
+
 var nav= document.getElementsByTagName("nav")[0];
 
+nav.style.transform = "scale(0)";
+
+let ch=1
 menu.addEventListener("click",function() {
-    if (nav.style.zIndex === "0" || nav.style.zIndex === "") {
-      nav.style.zIndex = "1";
+    
+    if (ch===1) {
+        nav.style.transform = "scale(1)";
+        ch=0;
     } else {
-      nav.style.zIndex = "0";
+        nav.style.transform = "scale(0)";
+        ch=1;
     }
   })
