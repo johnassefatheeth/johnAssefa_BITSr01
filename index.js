@@ -22,3 +22,30 @@ menu.addEventListener("click",function() {
         ch=1;
     }
   })
+
+  const image = document.getElementById("image");
+
+  image.addEventListener("mouseenter", function() {
+    this.src = "jo.png";
+
+  });
+
+  image.addEventListener("mouseleave", function() {
+    this.src = "john.png";
+  });
+
+  const progressBar = document.getElementById('progressBar');
+
+progressBar.addEventListener('mouseover', () => {
+  const currentVal = progressBar.value;
+  let time = 0;
+  const animationDuration = 1000; // in milliseconds
+  const interval = setInterval(() => {
+    time += 10;
+    const newVal = currentVal * (time / animationDuration);
+    progressBar.value = newVal;
+    if (time >= animationDuration) {
+      clearInterval(interval);
+    }
+  }, 10);
+});
