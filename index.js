@@ -23,29 +23,21 @@ menu.addEventListener("click",function() {
     }
   })
 
-  const image = document.getElementById("image");
 
-  image.addEventListener("mouseenter", function() {
-    this.src = "jo.png";
+  const progressBar = document.getElementsByClassName('skival');
+for(let i=0;i<progressBar.length;i++){
 
-  });
-
-  image.addEventListener("mouseleave", function() {
-    this.src = "john.png";
-  });
-
-  const progressBar = document.getElementById('progressBar');
-
-progressBar.addEventListener('mouseover', () => {
-  const currentVal = progressBar.value;
+    progressBar[i].addEventListener('mouseover', () => {
+  const currentVal = progressBar[i].value;
   let time = 0;
   const animationDuration = 1000; // in milliseconds
   const interval = setInterval(() => {
     time += 10;
     const newVal = currentVal * (time / animationDuration);
-    progressBar.value = newVal;
+    progressBar[i].value = newVal;
     if (time >= animationDuration) {
       clearInterval(interval);
     }
   }, 10);
 });
+}
