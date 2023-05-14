@@ -272,6 +272,7 @@ section img:hover{
     padding: 15px;
     height: 250px;
     border-radius: 30px;
+    font-size: 35px;
 }
 .AASTU{
     background: url(aastu.png);
@@ -329,9 +330,16 @@ section img:hover{
     margin: 20px;
     padding: 20px;
     font-size: 25px;
-    color: rgb(0, 85, 255);
+    color: #1c2430;
     font-weight: 700;
     font-family: 'Britannic';
+    box-shadow: 0 0 10px rgb(0, 255, 42);
+}
+.transcript:hover{
+    background-color: #1c2430;
+    color: #fff;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 40px;
 }
 #contact_me{
     background-color:#2b313d;
