@@ -273,6 +273,8 @@ section img:hover{
     height: 250px;
     border-radius: 30px;
     font-size: 35px;
+    color: rgb(0, 68, 255);
+    text-shadow: 0 0 20px;
 }
 .AASTU{
     background: url(aastu.png);
