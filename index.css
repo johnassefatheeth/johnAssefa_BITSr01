@@ -86,6 +86,7 @@ section img{
     background-color: rgb(13, 255, 65);
     border-top-left-radius: 120px;
     border-bottom-right-radius: 120px;
+    animation: bounce 8s linear infinite;
     box-shadow: 0 0 10px rgb(13, 255, 65),0 0 20px rgba(13, 255, 65, 0.632),0 0 30px rgba(13, 255, 65, 0.297);
 }
 
@@ -108,9 +109,11 @@ section img{
     color: rgb(28, 189, 68);
     text-shadow: 0px 0px 10px;
 }
-#prof{
+#prof::after{
+    content: "";
     font-size: x-large;
     color: rgb(47, 97, 233);
+    animation: change 10s linear infinite;
 }
 #joh{
     color: rgb(0, 255, 64);
@@ -437,4 +440,40 @@ footer{
     }
 }
   
-  
+  @keyframes bounce {
+    0%{
+        transform: translateY(30px);
+
+    }
+    25%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(30px);
+        
+    }
+    75%{
+        transform: translateY(-30px);
+        
+    }
+    100%{
+        transform: translateY(30px);
+        
+    }
+    
+  }
+  @keyframes change {
+
+    0% {
+      content: "web designer";
+    }
+    33.3% {
+      content: "web developer";
+    }
+    66.6% {
+      content: "database designer";
+    }
+    100% {
+      content: "database developer";
+    }
+}
