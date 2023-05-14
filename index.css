@@ -273,8 +273,12 @@ section img:hover{
     height: 250px;
     border-radius: 30px;
     font-size: 35px;
-    color: rgb(0, 68, 255);
+    color: rgba(0, 68, 255, 0);
     text-shadow: 0 0 20px;
+}
+.cert:hover{
+    scale: 1.1;
+    color: rgb(9, 255, 9);
 }
 .AASTU{
     background: url(aastu.png);
@@ -387,8 +391,18 @@ input ,textarea{
 
 .ic{
     position: relative;
-    width: 50px;
+    width: 70px;
     margin: 20px;
+    animation: bounce 10s linear infinite;
+}
+.link{
+    animation-delay:0.25s;
+}
+.blo{
+    animation-delay: 0.5s;
+}
+.git{
+    animation-delay: 0.75s ;
 }
 #portfolio{
     position: relative;
