@@ -3,6 +3,9 @@
     padding: 0;
     transition: 0.8s;
 }
+body{
+    background-color: #1c2430;
+}
 
 
 a{
@@ -546,4 +549,7 @@ footer{
         transform: translateY(-15px);
     }
     
+}
+.animate{
+    scale: 0.8;
 }

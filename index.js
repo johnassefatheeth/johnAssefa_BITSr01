@@ -41,3 +41,17 @@ for(let i=0;i<progressBar.length;i++){
   }, 10);
 });
 }
+
+const section = document.querySelector('#bio');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate');
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+observer.observe(section);
+
