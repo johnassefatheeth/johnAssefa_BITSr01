@@ -427,6 +427,10 @@ input ,textarea{
     background: url(ML.png) !important;
     background-size: cover !important;
 }
+.mps{
+    background: url(ps.png) !important;
+    background-size: cover !important;
+}
 #portfolio h2{
     font-size: 45px;
     font-family: Old English Text MT;
