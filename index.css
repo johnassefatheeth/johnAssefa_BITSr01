@@ -550,6 +550,10 @@ footer{
     }
     
 }
-.animate{
+.sec{
     scale: 0.8;
+    transition: 2s ease-in;
+}
+.animate{
+    scale: 1;
 }
