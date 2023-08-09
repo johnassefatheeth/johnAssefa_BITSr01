@@ -57,3 +57,17 @@ const observer = new IntersectionObserver((entries) => {
 observer.observe(section);
 
 
+const section2 = document.querySelector('.secc');
+
+const observer2 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate');
+    } else {
+      entry.target.classList.remove('animate');
+    }
+  });
+});
+
+observer.observe(section2);
+

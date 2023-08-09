@@ -163,6 +163,7 @@ section img:hover{
     margin-top: 40px;
     border:none;
     animation: clk 4s linear infinite;
+    animation-delay: 1s;
     box-shadow: 0 0 20px rgb(13, 255, 65),0 0 40px rgba(13, 255, 65, 0.632),0 0 80px rgba(13, 255, 65, 0.368);
 }
 #bio button:hover{
@@ -563,9 +564,13 @@ footer{
     
 }
 .sec{
-    scale: 0.8;
-    transition: 2s ease-in;
+    transform: rotateY(90deg)  translateX(500px);
+    transition: 1.5s ease-in;
+}
+.secc{
+    transform: rotateY(-90deg) translateX(-400px);
+    transition:1.5s ease-in-out;
 }
 .animate{
-    scale: 1;
+    transform: rotateY(0deg) translateX(0) scale(1);
 }
