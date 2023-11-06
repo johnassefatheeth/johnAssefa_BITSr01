@@ -331,6 +331,11 @@ section img:hover{
     background: url(rwd.jpg);
     background-size: cover;
 }
+.Mint{
+     background: url(Mint.png);
+    background-size: cover;
+
+}
 .transcript{
     display: inline-block;
     background-color: rgb(0, 255, 42);
